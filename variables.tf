@@ -1,5 +1,5 @@
 variable "AWS_REGION" {
-    default = "us-west-2"
+    default = "us-east-1"
 }
 
 variable "AMI" {
@@ -12,5 +12,5 @@ variable "AMI" {
 }
 
 variable "PUBLIC_KEY_PATH" {
-    default = "/Users/praveensingampalli/Documents/BOOTCAMP2_FINAL/Terraform_learning_demo/Terraform_learning_demo/oregon-region-key-pair.pub"
+    default = "/Users/girwarkishor/downloads/terraform-key.pub"
 }
